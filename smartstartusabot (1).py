@@ -1,9 +1,3 @@
-
-
-
-
-
-
 import os
 import asyncio
 import re
@@ -17,7 +11,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram_calendar import SimpleCalendar, SimpleCalendarCallback
 
 # Получаем данные из окружения Railway
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("7640751648:AAEfw4o4ElnSeCf_qPvxHwdUFFM-0waa-lM")
 ADMIN_ID = int(os.environ.get("ADMIN_ID", "0"))
 
 bot = Bot(token=TOKEN)
